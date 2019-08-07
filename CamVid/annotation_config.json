@@ -1,0 +1,81 @@
+{
+    "labels": {
+        "batang": {
+            "categorie": "batang",
+            "color": [
+                1,
+                1,
+                1
+            ],
+            "id": 9,
+            "id_categorie": 3,
+            "name": "batang"
+        },
+		"giuk": {
+            "categorie": "ja",
+            "color": [
+                100,
+                100,
+                32
+            ],
+            "id": 1,
+            "id_categorie": 1,
+            "name": "giuk"
+        },
+        "aa": {
+            "categorie": "mo",
+            "color": [
+                150,
+                100,
+                234
+            ],
+            "id": 12,
+            "id_categorie": 2,
+            "name": "aa"
+        },
+        "niun": {
+            "categorie": "ja",
+            "color": [
+                70,
+                70,
+                70
+            ],
+            "id": 2,
+            "id_categorie": 1,
+            "name": "niun"
+        },
+        "dig": {
+            "categorie": "ja",
+            "color": [
+                0,
+                60,
+                100
+            ],
+            "id": 3,
+            "id_categorie": 1,
+            "name": "dig"
+        },
+        "liul": {
+            "categorie": "ja",
+            "color": [
+                0,
+                0,
+                142
+            ],
+            "id": 4,
+            "id_categorie": 1,
+            "name": "liul"
+        },
+        "mium": {
+            "categorie": "ja",
+            "color": [
+                0,
+                0,
+                90
+            ],
+            "id": 5,
+            "id_categorie": 1,
+            "name": "mium"
+        }
+    }
+}
