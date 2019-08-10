@@ -7,11 +7,11 @@ from utils import utils, helpers
 from builders import model_builder
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--image', type=str, default=None, required=True, help='The image you want to predict on. ')
-parser.add_argument('--checkpoint_path', type=str, default=None, required=True, help='The path to the latest checkpoint weights for your model.')
-parser.add_argument('--crop_height', type=int, default=512, help='Height of cropped input image to network')
-parser.add_argument('--crop_width', type=int, default=512, help='Width of cropped input image to network')
-parser.add_argument('--model', type=str, default=None, required=True, help='The model you are using')
+parser.add_argument('--image', type=str, default="pred_image/test.png", required=False, help='The image you want to predict on. ')
+parser.add_argument('--checkpoint_path', type=str, default="checkpoints/latest_model_FC-DenseNet56_CamVid.ckpt", required=False, help='The path to the latest checkpoint weights for your model.')
+parser.add_argument('--crop_height', type=int, default=128, help='Height of cropped input image to network')
+parser.add_argument('--crop_width', type=int, default=128, help='Width of cropped input image to network')
+parser.add_argument('--model', type=str, default="FC-DenseNet56", required=False, help='The model you are using')
 parser.add_argument('--dataset', type=str, default="CamVid", required=False, help='The dataset you are using')
 args = parser.parse_args()
 
@@ -64,7 +64,7 @@ output_image = helpers.reverse_one_hot(output_image)
 
 out_vis_image = helpers.colour_code_segmentation(output_image, label_values)
 file_name = utils.filepath_to_name(args.image)
-cv2.imwrite("%s_pred.png"%(file_name),cv2.cvtColor(np.uint8(out_vis_image), cv2.COLOR_RGB2BGR))
+cv2.imwrite("pred_image/%s_pred.png"%(file_name),cv2.cvtColor(np.uint8(out_vis_image), cv2.COLOR_RGB2BGR))
 
 print("")
 print("Finished!")

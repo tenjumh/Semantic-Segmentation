@@ -29,7 +29,7 @@ def download_checkpoints(model_name):
 
 
 
-def build_model(model_name, net_input, num_classes, crop_width, crop_height, frontend="ResNet101", is_training=True):
+def build_model(model_name, net_input, num_classes, crop_width, crop_height, frontend="InceptionV4", is_training=True):
 	# Get the selected model.
 	# Some of them require pre-trained ResNet
 
