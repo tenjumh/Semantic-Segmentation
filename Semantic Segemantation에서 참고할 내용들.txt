@@ -1,0 +1,18 @@
+predict.py
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--image', type=str, default="Images/0001TP_008550.png", required=False, help='The image you want to predict on. ')
+parser.add_argument('--checkpoint_path', type=str, default="checkpoints\latest_model_FC-DenseNet56_CamVid.ckpt", required=False, help='The path to the latest checkpoint weights for your model.')
+parser.add_argument('--crop_height', type=int, default=512, help='Height of cropped input image to network')
+parser.add_argument('--crop_width', type=int, default=512, help='Width of cropped input image to network')
+parser.add_argument('--model', type=str, default="FC-DenseNet56", required=False, help='The model you are using')
+parser.add_argument('--dataset', type=str, default="CamVid", required=False, help='The dataset you are using')
+args = parser.parse_args()
+
+또 builders/model_builder.py에서
+def build_model(model_name, net_input, num_classes, crop_width, crop_height, frontend="InceptionV4", is_training=True):   #train할 때 사용한 frontend를 넣어줘야함.
+
+--image : default="이미지 경로/파일명"
+--checkpoint_path : default="ckpt파일 경로"
+
+*numpy 버전을 하위 버전 1.17인가??로 설치해줘야 해결될 수도 있다.
