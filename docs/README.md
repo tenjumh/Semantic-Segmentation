@@ -1,7 +1,16 @@
 출처 : (https://github.com/GeorgeSeif/Semantic-Segmentation-Suite/)
-# Semantic Segmentation Suite in TensorFlow
 
-![alt-text-10](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite/blob/master/Images/semseg.gif)
+상기 출처에 code를 바탕으로 손글씨 일부만 학습시켜보았다.
+
+Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
+:-------------------------:|:-------------------------:|:-------------------------:
+![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0017_0205_AC00_KO_001_091028.png "Original  Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0017_0205_AC00_KO_001_091028_gt.png "GT Target Image")  |   ![alt-text-5](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0017_0205_AC00_KO_001_091028.gif "Result")
+
+Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
+:-------------------------:|:-------------------------:|:-------------------------:
+![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028.png "Original  Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028_gt.png "GT Target Image")  |   ![alt-text-5](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028.gif "Result")
+
+# Semantic Segmentation Suite in TensorFlow
 
 ## News
 
