@@ -1,6 +1,6 @@
 출처 : (https://github.com/GeorgeSeif/Semantic-Segmentation-Suite/)
 
-상기 출처에 code를 바탕으로 손글씨 일부만 학습시켜보았다.
+*상기 출처에 code를 바탕으로 손글씨 일부만 학습시켜보았다.
 
 Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -9,6 +9,12 @@ Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
 Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028.png "Original  Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028_gt.png "GT Target Image")  |   ![alt-text-5](https://github.com/tenjumh/Semantic-Segmentation/blob/master/Images/HIL_001_0018_0523_AC00_KO_001_091028.gif "Result")
+
+*"가"에 대해서 몇개 안되는 train data로 상기 같이 학습시키고 그림판에서 대충 "가"를 써서 predict해보았다.
+Predict Origin Image            |  Predict Result Image
+:-------------------------:|:-------------------------:
+![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/HIL_001_0016_0636_AC00_KO_001_091028.png "Predict Origin Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/HIL_001_0016_0636_AC00_KO_001_091028_pred.png "Predict Result Image")
+
 
 # Semantic Segmentation Suite in TensorFlow
 
