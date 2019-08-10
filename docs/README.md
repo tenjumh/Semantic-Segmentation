@@ -15,7 +15,8 @@ Origin Image            |  GT Target Image   |  Result : 단계별 학습 진행
 Predict Origin Image            |  Predict Result Image
 :-------------------------:|:-------------------------:
 ![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/HIL_001_0016_0636_AC00_KO_001_091028.png "Predict Origin Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/HIL_001_0016_0636_AC00_KO_001_091028_pred.png "Predict Result Image")
-
+:-------------------------:|:-------------------------:
+![alt-text-3](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/test.png "Predict Origin Image")  |  ![alt-text-4](https://github.com/tenjumh/Semantic-Segmentation/blob/master/pred_image/test_pred.png "Predict Result Image")
 
 # Semantic Segmentation Suite in TensorFlow
 
